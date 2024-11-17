@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Block New Tabs",
+    "description": "Bloqueia a abertura de novas abas quando ativado.",
+    "version": "1.0",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Ativar/Desativar bloqueio de novas abas"
+    }
+}
